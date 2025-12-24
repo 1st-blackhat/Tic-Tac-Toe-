@@ -97,6 +97,7 @@ What I Learned
 ### Author
 
 Black hat 
+
 Front-End Developer and JavaScript Enthusiast
 
 .GitHub: @1st-blackhat
