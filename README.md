@@ -69,13 +69,40 @@ You can try it online here:
 
 ---
 
-tictactoe/
+## Project structure
+
+The section below describes the current, minimal project layout and a recommended, clearer structure if you later decide to reorganize the codebase. This README reflects the repository as-is and offers an optional refactor suggestion.
+
+Current (repository files)
+
+```
+Tic-Tac-Toe-/
 │
 ├── tictactoe.html        # Main HTML structure (landing + game screen)
 ├── tictactoe.js          # Core game logic + AI system
 ├── styles.css            # Styling and animations
 ├── README.md             # Project documentation
-└── /assets               # Icons, screenshots, and other visuals
+└── assets/               # Icons, screenshots, and other visuals
+```
+
+Recommended (optional, clearer convention)
+
+```
+Tic-Tac-Toe-/
+│
+├── index.html            # App entry point (rename from tictactoe.html)
+├── js/
+│   └── app.js            # Core game logic + AI (rename from tictactoe.js)
+├── css/
+│   └── styles.css        # Styling and animations
+├── assets/               # Icons, screenshots, and other visuals
+└── README.md             # Project documentation
+```
+
+Notes:
+- The "Recommended" layout is optional — it improves discoverability for new contributors and matches common web project conventions. If you'd like, I can rename files and move them into these folders (option B from earlier). 
+
+---
 
 ## What I Learned
 
