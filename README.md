@@ -36,17 +36,18 @@ This makes it almost impossible to beat in difficult mode.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/tictactoe.git
+   git clone https://github.com/1st-blackhat/tictactoe.git
 
 2. Navigate into the project folder:
    cd tictactoe
 
 3. Open the file in your browser:
-   tictactoe.html
+   index.html
 
-Option 2 — Live Demo
+### Option 2 — Live Demo
+
 You can try it online here:
-👉 Live Demo
+👉 Live Demo — https://1st-blackhat.github.io/Tic-Tac-Toe-/
 
 
 
@@ -72,28 +73,37 @@ tictactoe/
 └── /assets               # Icons, screenshots, and other visuals
 
 What I Learned
+
 .How to handle DOM manipulation effectively
+
 .Implementing a real game loop in pure JavaScript
+
 .Applying the Minimax algorithm to make an unbeatable AI
+
 .Designing a responsive and flexible layout using only CSS Grid
+
 .Organizing multi-screen logic within a single page app
 
-Future Improvements
+### Future Improvements
 
 .Add sound effects and subtle animations
+
 .Add undo and redo moves
+
 .Add light/dark themes
+
 .Add multiplayer support using WebSockets
 
-Author
+### Author
 
-Black Hat
+Black hat 
 Front-End Developer and JavaScript Enthusiast
 
-.GitHub: @1st-black-hat
+.GitHub: @1st-blackhat
+
 .Email: auto7matic000@gmail.com
 
-License
+### License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this code for personal or commercial purposes.
