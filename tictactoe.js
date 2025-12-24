@@ -7,6 +7,7 @@ const localModeBtn = document.getElementById("localMode");
 const AIModeBtn = document.getElementById("AIMode");
 const gameInfo = document.getElementById("gameInfo");
 const moreOptions = document.getElementById("moreOptions");
+const close = document.querySelector(".close");
 
 //  Gameplay variables Declaration 
 const board = document.getElementById("board");
@@ -99,6 +100,11 @@ function toggle() {
   popUp.style.display = "flex";
   overlay.style.display = "block";
 }
+
+close.addEventListener("click", () => {
+	gameContent.style.display = "none";
+	landingPage.style.display = "flex";
+});
 
 function untoggle() {
 
