@@ -102,6 +102,10 @@ function toggle() {
 }
 
 close.addEventListener("click", () => {
+	cells.forEach(cell => {
+        cell.textContent = "";
+        cell.classList.remove("winner", "playerX", "playerO");
+    });
 	gameContent.style.display = "none";
 	landingPage.style.display = "flex";
 });
