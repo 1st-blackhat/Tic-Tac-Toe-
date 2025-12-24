@@ -37,32 +37,37 @@ This makes it almost impossible to beat in difficult mode.
 1. Clone the repository:
    ```bash
    git clone https://github.com/1st-blackhat/tictactoe.git
+   ```
 
 2. Navigate into the project folder:
+   ```bash
    cd tictactoe
+   ```
 
 3. Open the file in your browser:
+   ```bash
    index.html
+   ```
 
 ### Option 2 — Live Demo
 
-You can try it online here:
+You can try it online here:  
 👉 Live Demo — https://1st-blackhat.github.io/Tic-Tac-Toe-/
 
+---
 
+## Tech Stack
 
-Tech Stack
-Category 
-Technology
-Frontend
-HTML5, CSS3, JavaScript (ES6+)
-AI Logic
-Minimax Algorithm
-Design
-Responsive Grid Layout
-Fonts
-Google Fonts (Poppins / Montserrat)
+| Category      | Technology / Details |
+|---------------|----------------------|
+| Frontend      | HTML5, CSS3, JavaScript (ES6+) |
+| AI Logic      | Minimax algorithm (implemented in vanilla JS) |
+| Styling       | CSS Grid, CSS animations |
+| Fonts         | Google Fonts — Poppins, Montserrat |
+| Hosting       | GitHub Pages (optional) |
+| Tools / Build | None — plain HTML/CSS/JS (no bundler) |
 
+---
 
 tictactoe/
 │
@@ -72,40 +77,32 @@ tictactoe/
 ├── README.md             # Project documentation
 └── /assets               # Icons, screenshots, and other visuals
 
-What I Learned
+## What I Learned
 
-.How to handle DOM manipulation effectively
-
-.Implementing a real game loop in pure JavaScript
-
-.Applying the Minimax algorithm to make an unbeatable AI
-
-.Designing a responsive and flexible layout using only CSS Grid
-
-.Organizing multi-screen logic within a single page app
+- How to handle DOM manipulation effectively
+- Implementing a real game loop in pure JavaScript
+- Applying the Minimax algorithm to make an unbeatable AI
+- Designing a responsive and flexible layout using only CSS Grid
+- Organizing multi-screen logic within a single page app
 
 ### Future Improvements
 
-.Add sound effects and subtle animations
-
-.Add undo and redo moves
-
-.Add light/dark themes
-
-.Add multiplayer support using WebSockets
+- Add sound effects and subtle animations
+- Add undo and redo moves
+- Add light/dark themes
+- Add multiplayer support using WebSockets
 
 ### Author
 
-Black hat 
+Black hat  
 
 Front-End Developer and JavaScript Enthusiast
 
-.GitHub: @1st-blackhat
-
-.Email: auto7matic000@gmail.com
+- GitHub: @1st-blackhat
+- Email: auto7matic000@gmail.com
 
 ### License
 
-This project is licensed under the MIT License.
-You are free to use, modify, and distribute this code for personal or commercial purposes.
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute this code for personal or commercial purposes.  
 If you find this project helpful, consider giving it a star on GitHub — it really helps.
