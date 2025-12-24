@@ -108,8 +108,8 @@ close.addEventListener("click", () => {
     });
 	gameContent.style.display = "none";
 	landingPage.style.display = "flex";
-	scoreX.textContent = 0;
-	scoreO.textContent = 0;
+	scoreX.textContent =`${Xscore - Xscore}`;
+	scoreO.textContent = `${Oscore - Oscore}`;
 	Xscore = 1;
 	Oscore = 1;
 });
