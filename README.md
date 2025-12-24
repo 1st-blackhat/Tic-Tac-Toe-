@@ -131,5 +131,7 @@ Front-End Developer and JavaScript Enthusiast
 ### License
 
 This project is licensed under the MIT License.  
-You are free to use, modify, and distribute this code for personal or commercial purposes.  
+You are free to use, modify, and distribute this code for personal or commercial purposes. 
+
+
 If you find this project helpful, consider giving it a star on GitHub — it really helps.
